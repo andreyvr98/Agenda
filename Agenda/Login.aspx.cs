@@ -13,5 +13,26 @@ namespace Agenda
         {
 
         }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user= txtEmail.Text;
+            string passwored= txtPassword.Text;
+            if (user == "admin" && passwored == "admin") 
+            {
+                Response.Redirect("/Home.aspx");
+            }
+            else
+            {
+                lblMessage.Text = "Usuario o contraseña incorrecta";
+                lblMessage.Visible = true;
+                txtEmail.Text = "";
+                txtPassword.Text = "";
+            }
+        }
+        protected void LinkButton1_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("Signin.aspx");
+        }
     }
 }
