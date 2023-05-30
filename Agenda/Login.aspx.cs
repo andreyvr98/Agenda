@@ -26,6 +26,7 @@ namespace Agenda
             {
                 lblMessage.Text = "Usuario o contraseña incorrecta";
                 lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Red; 
                 txtEmail.Text = "";
                 txtPassword.Text = "";
             }

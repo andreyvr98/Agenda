@@ -13,5 +13,10 @@ namespace Agenda
 		{
 
 		}
-	}
+
+        protected void linkBack_Click(object sender, EventArgs e)
+        {
+			Response.Redirect("login.aspx");
+        }
+    }
 }

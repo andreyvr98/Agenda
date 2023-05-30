@@ -17,14 +17,14 @@
                     <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
              </div>
              <div class="password">
-                      <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+                      <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
                       <asp:Label  ID="lblPassword" runat="server" Text="Contraseña"></asp:Label>
             </div>  
             <div>
                 <asp:Button ID="btnLogin" runat="server" Text="Iniciar" OnClick="btnLogin_Click" />                      
             </div>
             <div class="signin">
-                <asp:LinkButton ID="LinkButton1" runat="server" OnClientClick="/Signin.aspx" OnClick="LinkButton1_Click1">Registrarse</asp:LinkButton>                         
+                <asp:LinkButton class="linklll" ID="LinkButton1" runat="server" OnClientClick="/Signin.aspx" OnClick="LinkButton1_Click1">Registrarse</asp:LinkButton>                         
             </div>
             <div class="message">
                 <asp:Label ID="lblMessage" runat="server" Visible ="False" Text="Error"></asp:Label>

@@ -72,7 +72,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Signin.aspx" />
     <Content Include="Style\login_style.css" />
-    <Content Include="Style\Signin.css" />
+    <Content Include="Style\Signin._style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
